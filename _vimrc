@@ -19,8 +19,9 @@ set softtabstop=2
 set expandtab
 autocmd FileType python setlocal tabstop=4 shiftwidth=4 softtabstop=4
 
-set fileencodings=ucs-bom,utf-8,cp936,gb18030,big5,euc-jp,euc-kr,latin1
-set scrolloff=3
+set fileencodings=utf-8,ucs-bom,gb18030,gbk,gb2312,cp936
+set termencoding=utf-8
+set encoding=utf-8set scrolloff=3
 set fenc=utf-8
 set autoindent
 set hidden
